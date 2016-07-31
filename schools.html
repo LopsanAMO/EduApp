@@ -21,6 +21,12 @@
       }
     });
   </script>
+  <style rel="stylesheet" text="text/css">
+    div.cosas {
+      display: flex;
+      width: auto;
+    }
+  </style>
   <script type="text/javascript" src="js/modernizr.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="images/logoStandford32.ico">
   <link rel="apple-touch-icon" href="images/logoStandford32.ico">
@@ -34,8 +40,8 @@
       <div class="w-nav navbar" data-collapse="all" data-animation="over-left" data-duration="400" data-contain="1" data-easing="ease-out-quint" data-no-scroll="1">
         <div class="w-container">
           <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">Registro</div>
-          <a class="w-inline-block navbar-button" href="login.html" data-load="1">
+          <div class="navbar-title">Escuela</div>
+          <a class="w-inline-block navbar-button" href="home.html" >
             <div class="navbar-button-icon icon ion-ios-close-empty"></div>
           </a>
         </div>
@@ -44,35 +50,37 @@
         <div class="logo-login smaller"></div>
         <div class="bottom-section padding">
           <div class="w-form">
-            <form id="submit-form" name="email-form" data-name="Email Form" data-redirect="settings.html" action="#">
-              <div>
-                <label class="label-form" for="full-name-field">Nombre Completo</label>
-                <input class="w-input input-form" id="full-name-field" type="text" name="full-name" data-name="full-name" required="required">
-                <div class="separator-fields"></div>
-              </div>
-              <div>
-                <label class="label-form" for="email-field">Correo Electrónico</label>
-                <input class="w-input input-form" id="email-field" type="email" name="email" data-name="email" required="required">
-                <div class="separator-fields"></div>
-              </div>
-              <div>
-                <label class="label-form" for="password-ield">Contraseña</label>
-                <input class="w-input input-form" id="password-ield" type="password" name="password" data-name="password" required="required">
-                <div class="separator-fields"></div>
-              </div>
-              <div>
-                <label class="label-form" for="birthday-field">Fecha de Nacimiento</label>
-                <input class="w-input input-form" id="birthday-field" type="text" name="birthday" data-name="birthday" required="required">
-              </div>
-              <div class="separator-button-input"></div>
-              <input class="w-button action-button" type="submit" value="Sign Up" data-wait="Please wait...">
-              <div class="separator-button"></div><a class="link-upper" href="login.html" >Ya estas registrado? <strong class="b-link">Inicia Sesión</strong></a>
-            </form>
-            <div class="w-form-done">
-              <p>Thank you! Your submission has been received!</p>
+            <div class="cosas">
+              <p>
+                Escuela:
+              </p>
+              <p id="school-name">
+                nombre falso
+              </p>
             </div>
-            <div class="w-form-fail">
-              <p>Oops! Something went wrong while submitting the form</p>
+            <div class="cosas">
+              <p>
+                Direccion:
+              </p>
+              <p id="direccion">
+                Direccion falase
+              </p>
+            </div>
+            <div class="cosas">
+              <p>
+                Estado:
+              </p>
+              <p id="estado">
+                Estado false
+              </p>
+            </div>
+            <div class="cosas">
+              <p>
+                Municipio:
+              </p>
+              <p id="municipio">
+                municipio false
+              </p>
             </div>
           </div>
         </div>
