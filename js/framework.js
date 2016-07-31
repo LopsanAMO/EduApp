@@ -43,7 +43,7 @@ $(function() {
     }; resizeHeight();
     $(window).resize(function() {
         resizeHeight();
-    }); 
+    });
     $('input:radio.radio-bullet').change( function(){
         var name = $(this).attr('name');
         $('input:radio[name="'+ name +'"]').each(function( index ) {
