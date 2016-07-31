@@ -37,15 +37,66 @@
   <section class="w-section mobile-wrapper">
 
     <div class="page-content" id="main-stack" data-scroll="0">
-      <div class="w-nav navbar" data-collapse="all" data-animation="over-left" data-duration="400" data-contain="1" data-easing="ease-out-quint" data-no-scroll="1">
-        <div class="w-container">
-          <div class="wrapper-mask" data-ix="menu-mask"></div>
-          <div class="navbar-title">Escuela</div>
-          <a class="w-inline-block navbar-button" href="home.html" >
-            <div class="navbar-button-icon icon ion-ios-close-empty"></div>
+      <div class="w-nav navbar" data-collapse="all" data-animation="over-left" data-duration="400" data-contain="1" data-no-scroll="1" data-easing="ease-out-quint">
+      <div class="w-container">
+        <nav class="w-nav-menu nav-menu" role="navigation">
+          <div class="nav-menu-header">
+            <div class="logo">EduApp</div>
+            <div class="slogan">Mejorando tu aprendizaje.</div>
+          </div>
+          <a class="w-clearfix w-inline-block nav-menu-link" href="home.html">
+            <div class="icon-list-menu">
+              <div class="icon ion-ios-home-outline"></div>
+            </div>
+            <div class="nav-menu-titles">Inicio</div>
           </a>
+          <a class="w-clearfix w-inline-block nav-menu-link" href="schools.html">
+            <div class="icon-list-menu">
+              <div class="icon ion-ios-checkmark-outline"></div>
+            </div>
+            <div class="nav-menu-titles">Escuela</div>
+          </a>
+          <a class="w-clearfix w-inline-block nav-menu-link" href="points.html" >
+            <div class="icon-list-menu">
+              <div class="icon ion-ios-list-outline"></div>
+            </div>
+            <div class="nav-menu-titles">Puntos</div>
+            <div class="nav-menu-text-right">8</div>
+          </a>
+
+          <a class="w-clearfix w-inline-block nav-menu-link" href="addnew.html" data-load="1">
+            <div class="icon-list-menu">
+              <div class="icon ion-ios-checkmark-outline"></div>
+            </div>
+            <div class="nav-menu-titles">Ayuda</div>
+          </a>
+          <a class="w-clearfix w-inline-block nav-menu-link" href="settings.html">
+            <div class="icon-list-menu">
+              <div class="icon ion-ios-chatboxes-outline"></div>
+            </div>
+            <div class="nav-menu-titles">Perfil</div>
+          </a>
+          <a class="w-clearfix w-inline-block nav-menu-link" href="login.html">
+            <div class="icon-list-menu">
+              <div class="icon ion-ios-download-outline"></div>
+            </div>
+            <div class="nav-menu-titles">Cerrar Sesiòn</div>
+          </a>
+          <div class="separator-bottom"></div>
+          <div class="separator-bottom"></div>
+          <div class="separator-bottom"></div>
+        </nav>
+        <div class="wrapper-mask" data-ix="menu-mask"></div>
+        <div class="navbar-title">Puntos</div>
+        <div class="w-nav-button navbar-button left" id="menu-button" data-ix="hide-navbar-icons">
+          <div class="navbar-button-icon home-icon">
+            <div class="bar-home-icon"></div>
+            <div class="bar-home-icon"></div>
+            <div class="bar-home-icon"></div>
+          </div>
         </div>
       </div>
+    </div>
       <div class="body padding">
         <div class="logo-login smaller"></div>
         <div class="bottom-section padding">
