@@ -319,8 +319,9 @@ a {
   height: 304px;
 }
 .bottom-section {
-  position: absolute;
+  position: relative;
   left: 0px;
+  margin: auto;
   right: 0px;
   bottom: 0px;
   padding-bottom: 5px;
@@ -833,13 +834,13 @@ a {
   line-height: 19px;
 }
 .grey-header {
-  padding: 10px 20px;
+  padding: 220px 20px;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
   background-color: #fafafa;
 }
 .grey-heading-title {
-  font-size: 16px;
+  font-size: 35px;
 }
 .square-map {
   height: 300px;
